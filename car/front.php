@@ -29,7 +29,7 @@ include 'lheader.php';
     <section class="home" id="home">
 
         <h1 class="home-parallax" data-speed="-2">find your cars</h1>
-        <img class="home-parallax" data-speed="5" src="img/bc.jpg" alt="">
+        <img class="home-parallax" data-speed="5" src="images.html\shwrm.jpg" alt="">
     </section>
 
 
