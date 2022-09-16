@@ -1,6 +1,6 @@
 # WebProjects
 
-We are creating car sale system website by using HTML,CSS,PHP and MySQL. The main
+We have created car sale system website by using HTML,CSS,PHP and MySQL. The main
 aim of this project is to create an application that is helpful while selling cars.
 In the existing System it is difficult to maintain the car information individually and to supply
 for the customers who are eager to buy them. Customer has to face difficulty in order to know
