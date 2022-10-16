@@ -9,7 +9,7 @@ $result2 = mysqli_query($con, $q2);
 
 
 include 'bheader.php';
-include 'bh.php';
+//include 'bh.php';
 include 'blsnav.php';
 ?>
 
@@ -81,7 +81,6 @@ include 'blsnav.php';
             <div class="swiper-wrapper">
                 <div class="swiper-slide box">
                     <?php while ($row1 = mysqli_fetch_array($result1)) {?>
-
                             <div class="content">
                                 <h3 style="font-size: 3.5rem;"><strong><?php echo $row1['cname'] ?></strong></h3>
                                 <img src="images/<?php echo $row1['cimg'] ?>" alt="">
