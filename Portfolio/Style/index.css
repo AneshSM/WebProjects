@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: rgb(206, 186, 186);
+    border: 1px solid white;
+}
+::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: tomato;
+}
+header{
+    text-align: center;
+    font-size: xx-large;
+    background-color: #313131;
+    position: fixed;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    
+}
+header nav div{
+    float: right;
+    font-size: 120%;
+    color: white;
+    padding: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#fl{
+    float: left;
+    font-size: x-large;
+}
+#fl::first-letter{
+    color: tomato;
+}
+main{
+    position: -ms-page;
+}
+section{
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(64, 56, 56);
+}
+#sec1{
+    background-color: rgb(64, 56, 56);
+    background-image:url("/WebProjects/Portfolio/Images/Naruto-Kane.png");
+    background-blend-mode:overlay;
+}
+#sec-title{
+    color: rgb(206, 186, 186);
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 5px 8px 5px rgb(0, 0, 0);
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+#prof{
+    display: flex;
+    flex-direction: row;
+}
+#prof img{
+    margin: 4rem;
+    border: 2px solid black;
+    width: 20%;
+    height: 40%;
+    border-radius: 50%;
+}
+#sec2{
+    background-blend-mode: overlay;
+}
+#about{
+     display: inline;
+}
+#sec3{
+}

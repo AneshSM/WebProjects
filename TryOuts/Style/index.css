@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 6fr;
+    column-gap: 1%;
+}
+main,header,footer,aside,nav{
+    border: 2px solid black;
+    padding: 1%;
+}
+main{
+    display: grid;
+    grid-template-rows: repeat(auto-fill,minmax(100%,auto));
+}
